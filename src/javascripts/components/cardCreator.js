@@ -1,7 +1,10 @@
+import printToDom from '../helpers/printToDom';
+
 const cardCreator = (array) => {
-  array.forEach((bear) => {
-    document.querySelector('#bear-container').innerHTML += `
-      <div class="card" style="width: 18rem; id="${bear.bearId}">
+  let domString = '';
+  array.forEach((bear, i) => {
+    domString += `
+      <div class="card" style="width: 18rem; id="${i}">
       <img src="${bear.imageUrl}" class="card-img-top img-container" alt="...">
       <div class="card-body">
         <h5 class="card-title">${bear.name}</h5>
@@ -12,6 +15,7 @@ const cardCreator = (array) => {
       </ul>
     </div>`;
   });
+  printToDom('#bear-container', domString);
 };
 
 export default cardCreator;

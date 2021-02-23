@@ -1,6 +1,6 @@
-const printToDom = (divId, string) => {
+const printToDom = (divId, textToPrint) => {
   const selectedDiv = document.querySelector(divId);
-  selectedDiv.innerHTML = string;
+  selectedDiv.innerHTML = textToPrint;
 };
 
 export default printToDom;

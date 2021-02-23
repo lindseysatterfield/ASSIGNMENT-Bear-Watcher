@@ -1,4 +1,4 @@
-import getBearFormData from './bearData';
+import getBearFormData from './river';
 
 const domEvents = () => {
   document.querySelector('#bear-btn').addEventListener('click', getBearFormData);
