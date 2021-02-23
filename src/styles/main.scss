@@ -1,14 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: #66a266;
   text-align: center;
   margin: 1em auto;
+  font-family: 'Cantora One', sans-serif;
+  width: 90%;
 }
 
-.img-container {
+.card-img-top {
   height: 200px;
   background-size: cover;
   background-position: center;

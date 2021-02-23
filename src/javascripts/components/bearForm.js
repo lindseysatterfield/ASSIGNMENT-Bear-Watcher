@@ -17,7 +17,7 @@ const bearForm = () => {
     </div>
     <div class="form-group row justify-content-center">
       <div class="col-sm-6">
-        <button type="submit" id="bear-btn" class="btn btn-primary">Submit</button>
+        <button type="submit" id="bear-btn" class="btn .btn-outline-* text-light" style="background-color: #964B00">Submit</button>
       </div>
     </div>
   </form>`;
