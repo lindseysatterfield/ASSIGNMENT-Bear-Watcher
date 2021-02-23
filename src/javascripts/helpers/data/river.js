@@ -1,8 +1,9 @@
 import cardCreator from '../../components/cardCreator';
 
+const userBears = [];
+
 const getBearFormData = (e) => {
   e.preventDefault();
-  const userBears = [];
   const name = document.querySelector('#bearName').value;
   const imageUrl = document.querySelector('#bearImage').value;
   const bearWeight = Math.floor(Math.random() * 800 + 400);
@@ -21,6 +22,7 @@ const getBearFormData = (e) => {
     'Bears have two layers of fur',
   ];
   const randomFact = bearFacts[Math.floor(Math.random() * bearFacts.length)];
+
   const bearCardsObject = {
     name,
     imageUrl,
@@ -29,6 +31,7 @@ const getBearFormData = (e) => {
   };
   userBears.push(bearCardsObject);
   cardCreator(userBears);
+  console.warn(userBears);
   document.querySelector('#form').reset();
 };
 
