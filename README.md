@@ -2,8 +2,7 @@
 ## Overview
 Bear Watcher is an app where the user can enter a bear name and image url. It then populates a card with the name, image, a random weight, and a random bear fact.
 ## Wireframe
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1P1HpxkCmVQvdKqsxJSeOa%2FBear-Watcher%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-
+![](./src/assets/bear-tracker-wireframe.png)
 ## Deployed project
 [Link to deployed site](https://lindseysatterfield-bear-watcher.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d716183c-36d2-4444-9154-ef09d260f54d/deploy-status)](https://app.netlify.com/sites/lindseysatterfield-bear-watcher/deploys)
